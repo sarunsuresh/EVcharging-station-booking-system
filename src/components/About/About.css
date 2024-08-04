@@ -1,0 +1,19 @@
+/* About.css */
+
+.about-section {
+    padding: 20px;
+    margin-top: 20px; /* Add margin-top to create space */
+    text-align: center; /* Center-align the text */
+    color: white; /* Set the text color to white */
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

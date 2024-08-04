@@ -1,0 +1,73 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.profile-form{
+    text-align: center;
+}
+.profile-form h1{
+    text-transform: uppercase;
+}
+.submit-button{
+    position: relative;
+    padding: 10px 20px;
+    top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+.submit-button:hover{
+    background-color: #45a049;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.verify-button{
+    position: relative;
+    padding: 10px 20px;
+    top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+.verify-button:hover{
+    background-color: #45a049;
+}
+.error-text{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: red;
+}
+.success-text{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.verify-text{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+

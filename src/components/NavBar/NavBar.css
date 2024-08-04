@@ -1,0 +1,106 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0b0b0b;
+  padding: 10px 0;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+nav {
+  padding: 10px 0; /* Padding for the top and bottom */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center align the list items */
+}
+
+li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 20px; /* Spacing between list items */
+}
+
+a {
+  color: #39FF14; /* Text color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text bold */
+  font-family: 'Magnus Sans', sans-serif; /* Set font to Magnus Sans */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Button styles */
+.navbar button {
+  color: #39FF14; /* Text color */
+  background-color: transparent; /* Remove background color */
+  border: none;
+  padding: 0; /* Remove padding */
+  cursor: pointer;
+  font-weight: bold; /* Make text bold */
+  font-family: 'Magnus Sans', sans-serif; /* Set font to Magnus Sans */
+  transition: color 0.3s ease; /* Add transition effect for color change */
+}
+
+.navbar button:hover {
+  color: #00FF00; /* Change text color on hover */
+}
+
+.navbar .user-name {
+  color: #39FF14; /* Text color */
+  font-weight: bold; /* Make text bold */
+  font-family: 'Magnus Sans', sans-serif; /* Set font to Magnus Sans */
+  cursor: pointer;
+}
+
+.navbar .profile {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  position: absolute; /* Position relative to the navbar */
+  top: 50%; /* Align to the middle vertically */
+  right: 20px; /* Align to the right */
+  transform: translateY(-50%); /* Adjust for vertical alignment */
+  background-color: transparent;
+}
+
+.navbar .profile svg {
+  margin-right: 5px; /* Spacing between icon and text */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position just below the parent element */
+  right: 0;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px; /* Rounded corners */
+}
+
+.dropdown-content button {
+  color: #39FF14;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+  width: 100%; /* Make button full width */
+  border: none; /* Remove button border */
+  background-color:black; /* Transparent background */
+}
+
+.dropdown-content button:hover {
+  background-color: #e2eee0;
+}
+
+.navbar .profile:hover .dropdown-content {
+  display: block;
+}

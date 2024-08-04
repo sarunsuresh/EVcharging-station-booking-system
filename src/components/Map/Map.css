@@ -1,0 +1,11 @@
+/* Map.css */
+.map {
+    opacity: 0.3; /* Initially translucent */
+  transition: opacity 0.5s ease-in-out;
+  margin-top: 20px;
+  }
+  
+  .map:hover {
+    opacity: 1;
+  }
+  

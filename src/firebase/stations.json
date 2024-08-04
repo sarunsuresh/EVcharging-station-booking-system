@@ -1,0 +1,189 @@
+{
+    "stations" : {
+            "Mysuru" : {
+                "Station 1" : {
+                    "Location" : "Nanjangud",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "Type 2",
+                    "Distance" : "2Km",
+                    "Status" : "Available" 
+                },
+                "Station 2" : {
+                    "Location" : "Hunsur",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "6Km",
+                    "Status" : "Available" 
+                },
+                "Station 3" : {
+                    "Location" : "T. Narasipura",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "5Km",
+                    "Status" : "Available" 
+                },
+                "Station 4" : {
+                    "Location" : "H.D. Kote",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "7Km",
+                    "Status" : "Available" 
+                },
+                "Station 5" : {
+                    "Location" : "K.R. Nagar",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "8Km",
+                    "Status" : "Unavailable" 
+                }
+            },
+            "Banglore" : {
+                "Station 1" : {
+                    "Location" : "Koramangala",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "Type 2",
+                    "Distance" : "2Km",
+                    "Status" : "Available" 
+                },
+                "Station 2" : {
+                    "Location" : "Indiranagar",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "6Km",
+                    "Status" : "Available" 
+                },
+                "Station 3" : {
+                    "Location" : "Jayanagar",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "5Km",
+                    "Status" : "Unavailable" 
+                },
+                "Station 4" : {
+                    "Location" : "Whitefield",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "7Km",
+                    "Status" : "Available" 
+                },
+                "Station 5" : {
+                    "Location" : "Hebbal",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "8Km",
+                    "Status" : "Available" 
+                }
+            },
+            "Calicut" : {
+                "Station 1" : {
+                    "Location" : "Kozhikode City",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "Type 2",
+                    "Distance" : "2Km",
+                    "Status" : "Available" 
+                },
+                "Station 2" : {
+                    "Location" : "Feroke",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "6Km",
+                    "Status" : "Available" 
+                },
+                "Station 3" : {
+                    "Location" : "Koyilandy",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "5Km",
+                    "Status" : "Available" 
+                },
+                "Station 4" : {
+                    "Location" : "Vadakara",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "7Km",
+                    "Status" : "Available" 
+                },
+                "Station 5" : {
+                    "Location" : "Beypore",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "8Km",
+                    "Status" : "Unavailable" 
+                }
+            },
+            "Kochi" : {
+                "Station 1" : {
+                    "Location" : "Mattancherry",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "Type 2",
+                    "Distance" : "2Km",
+                    "Status" : "Available" 
+                },
+                "Station 2" : {
+                    "Location" : "Ernakulam",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "6Km",
+                    "Status" : "Available" 
+                },
+                "Station 3" : {
+                    "Location" : "Kadavanthra",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "5Km",
+                    "Status" : "Available" 
+                },
+                "Station 4" : {
+                    "Location" : "Thevara",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "7Km",
+                    "Status" : "Available" 
+                },
+                "Station 5" : {
+                    "Location" : "Edappally",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "8Km",
+                    "Status" : "Unavailable" 
+                }
+            },
+            "Mangalore" : {
+                "Station 1" : {
+                    "Location" : "Ullal",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "Type 2",
+                    "Distance" : "2Km",
+                    "Status" : "Available" 
+                },
+                "Station 2" : {
+                    "Location" : "Surathkal",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "6Km",
+                    "Status" : "Available" 
+                },
+                "Station 3" : {
+                    "Location" : "Mulki",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "5Km",
+                    "Status" : "Available" 
+                },
+                "Station 4" : {
+                    "Location" : "Bantwal",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "7Km",
+                    "Status" : "Available" 
+                },
+                "Station 5" : {
+                    "Location" : "Moodbidri",
+                    "Power Output" : "50kw",
+                    "Charger Type" : "CCS",
+                    "Distance" : "8Km",
+                    "Status" : "Unavailable" 
+                }
+            }
+        }
+    }

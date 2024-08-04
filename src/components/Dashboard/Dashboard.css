@@ -1,0 +1,22 @@
+/* src/components/MyBookings/MyBookings.css */
+
+.my-bookings-container {
+    padding: 20px;
+}
+
+.my-bookings-container h2 {
+    margin-bottom: 20px;
+}
+
+.my-bookings-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.my-bookings-container li {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}

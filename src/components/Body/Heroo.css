@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set text color to white */
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+}
+
+.navbar {
+  background-color: transparent;
+
+  padding: 10px 0; /* Padding for the top and bottom */
+}
+
+/* App.css */
+
+/* Update the styles for the hero section */
+/* App.css */
+
+/* Update the styles for the hero section */
+.hero-section {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Align items vertically */
+  padding: 100px 20px; /* Add padding to the hero section */
+
+  background-size: cover; /* Cover the entire area with the background image */
+  background-position: center; /* Center the background image */
+}
+
+@font-face {
+  font-family: "Magnus Sans Extra Black";
+  src: url("../../../public/Magnum Sans W01 Extra Black/Magnum Sans W01 Extra Black.ttf")
+    format("woff2");
+
+  font-weight: 900;
+  font-style: normal;
+}
+
+.hero-content {
+  max-width: 60%; /* Limit the width of the content */
+  margin-left: 150px;
+  order: 1; /* Change the order of the content to appear first */
+  font-family: "Magnus Sans Extra Black", sans-serif;
+  font: weight 600px;
+  font: stretch 1.5em;
+}
+
+/* Additional styling for the button */
+
+.btn {
+  background-color: #39bc6b; /* Button background color */
+  color: rgb(248, 243, 243); /* Button text color */
+  padding: 14px 28px; /* Increase padding for the button */
+  text-decoration: none; /* Remove default link underline */
+  border: none; /* Remove button border */
+  border-radius: 10px; /* Make the button edges round */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Add a smooth transition for hover effect */
+  font-size: 1.2rem; /* Increase font size */
+}
+
+/* On hover, change background color, adjust box shadow, and scale button */
+.btn:hover {
+  background-color: #8ee4af; /* Change background color on hover */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+  transform: scale(1.05); /* Scale button slightly on hover */
+}
+.green {
+  color: #8ee4af;
+}
+
+.blue {
+  color: #ddd;
+}
+
+.desc {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

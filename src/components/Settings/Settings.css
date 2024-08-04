@@ -1,0 +1,21 @@
+/* src/components/Settings/Settings.css */
+
+.settings-container {
+    padding: 20px;
+}
+
+.settings-container h2 {
+    margin-bottom: 20px;
+}
+
+.settings-container .form-group {
+    margin-bottom: 15px;
+}
+
+.settings-container .form-group label {
+    margin-right: 10px;
+}
+
+.settings-container .form-group input[type="checkbox"] {
+    margin-left: 10px;
+}
